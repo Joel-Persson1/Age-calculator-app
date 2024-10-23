@@ -1,0 +1,46 @@
+@media (max-width: 62.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+
+  .linebreak {
+    display: block;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    position: relative;
+  }
+
+  .linebreak hr {
+    width: 100%;
+  }
+
+  .linebreak .btn {
+    position: absolute;
+    top: -3rem;
+    right: 50%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 27em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 31.25%;
+  }
+}

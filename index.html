@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main class="main">
+      <form action="#" class="form-section">
+        <div class="input-field classDay">
+          <label for="day" class="label labelDay">DAY</label>
+          <input
+            type="number"
+            name="day"
+            id="day"
+            placeholder="DD"
+            class="input"
+          />
+        </div>
+
+        <div class="input-field classMonth">
+          <label for="month" class="label labelMonth">MONTH</label>
+          <input
+            type="number"
+            name="month"
+            id="month"
+            placeholder="MM"
+            class="input"
+          />
+        </div>
+
+        <div class="input-field classYear">
+          <label for="year" class="label labelYear">YEAR</label>
+          <input
+            type="number"
+            name="year"
+            id="year"
+            placeholder="YYYY"
+            class="input"
+          />
+        </div>
+      </form>
+
+      <div class="linebreak">
+        <hr />
+        <button class="btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44"
+            class="icon"
+          >
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+
+      <section class="section-result">
+        <h2 class="result">
+          <span class="number-result" id="yearResult">--</span>years
+        </h2>
+        <h2 class="result">
+          <span class="number-result" id="monthResult">--</span>months
+        </h2>
+        <h2 class="result">
+          <span class="number-result" id="dayResult">--</span>days
+        </h2>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
